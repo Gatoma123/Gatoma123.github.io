@@ -57,8 +57,9 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ),url("media/imagen-7.jpg");
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 398px 581.39px;
+    background-size: 400px 711px;
 }
 
 
@@ -87,8 +88,9 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ),url("media/imagen-8.webp");
+    background-position: center 0;
     background-repeat: no-repeat;
-    background-size: 398px 581.39px;
+    background-size: 400px 711px;
 }
 
 #Noticias .container{
@@ -125,8 +127,9 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ),url("media/imagen-9.jpg");
+    background-position: center 0;
     background-repeat: no-repeat;
-    background-size: 398px 581.39px;
+    background-size: 90vh;
 }
 
 #Juegos-Gratis .container{
@@ -170,8 +173,9 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ),url("media/gatito.jpg");
+    background-position: center 0;
     background-repeat: no-repeat;
-    background-size: 398px 581.39px;
+    background-size: 90vh;
 }
 
 #Spam .container{
@@ -194,7 +198,7 @@ img{
 
 footer{
     margin: 0;
-    padding: 4px;
+    padding: 5px;
     font-size: bold;
     background-color: rgb(26, 26, 26);
     color: rebeccapurple;
