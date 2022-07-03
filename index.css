@@ -137,11 +137,13 @@ header a:hover{
 }
 
 #Juegos-Gratis .container{
+    padding: 20px 1px;
     text-align: center;
     color: white;
 }
 
 #Juegos-Gratis .containera{
+    padding: 10px 1px;
     text-align: center;
     color: white;
 }
