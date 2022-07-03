@@ -12,6 +12,16 @@ body{
     margin: 0;
 }
 
+.container{
+    max-width: 1040px;
+    margin: auto;
+}
+
+.containera{
+    max-width: 1040px;
+    margin: auto;
+}
+
 header{
     background-color: rgb(26, 26, 26);
 }
@@ -58,9 +68,9 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ),url("media/imagen-7.jpg");
-    background-position: center;
     background-repeat: no-repeat;
-    background-size: 533.3px 948px;
+    background-size: cover;
+    background-position: center center;
 }
 
 
@@ -89,9 +99,9 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ),url("media/imagen-8.webp");
-    background-position: center 0;
     background-repeat: no-repeat;
-    background-size: 533.3px 948px;
+    background-size: cover;
+    background-position: center center;
 }
 
 #Noticias .container{
@@ -131,9 +141,9 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ),url("media/imagen-9.jpg");
-    background-position: center 0;
     background-repeat: no-repeat;
-    background-size: 533.3px 948px;
+    background-size: cover;
+    background-position: center center;
 }
 
 #Juegos-Gratis .container{
@@ -171,6 +181,7 @@ header a:hover{
 #Spam{
     display: flex;
     align-items: center;
+    justify-content: center;
     text-align: center;
     flex-direction: column;
     height: 90vh;
@@ -179,9 +190,9 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ),url("media/gatito.jpg");
-    background-position: center 0;
     background-repeat: no-repeat;
-    background-size: 90vh;
+    background-size: cover;
+    background-position: center center;
 }
 
 #Spam .container{
@@ -209,4 +220,51 @@ footer{
     background-color: rgb(26, 26, 26);
     color: rebeccapurple;
     text-align: right;
+}
+
+@media(min-width:720px){
+
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #Gatoma .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+
+    #Noticias .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+
+    #Noticias .containera{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+
+    .img{
+        display: flex;
+        justify-content: center;
+    }
+
+
 }
