@@ -42,7 +42,7 @@ header .container{
 
 header nav{
     display: flex;
-    font-size: 1.2em;
+    font-size: 1.1em;
     padding-bottom: 5px;
 }
 
@@ -62,7 +62,7 @@ header a:hover{
     align-items: center;
     text-align: center;
     flex-direction: column;
-    height: 90vh;
+    height: 97.2vh;
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
@@ -75,7 +75,7 @@ header a:hover{
 
 
 #Gatoma .container{
-    padding: 200px 5px;
+    padding: 150px 5px;
     color: rgb(255, 255, 255);
 }
 
@@ -93,7 +93,7 @@ header a:hover{
     align-items: center;
     text-align: center;
     flex-direction: column;
-    height: 90vh;
+    height: 120vh;
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
@@ -135,7 +135,7 @@ header a:hover{
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 90vh;
+    height: 130vh;
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
@@ -211,6 +211,7 @@ header a:hover{
 img{
     text-align: center;
     padding: 5px;
+
 }
 
 footer{
@@ -264,6 +265,7 @@ footer{
     .img{
         display: flex;
         justify-content: center;
+        
     }
 
 
